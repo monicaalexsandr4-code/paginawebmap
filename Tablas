@@ -1,0 +1,14 @@
+<html>
+<table>
+    <h3>Tabla</h3>
+    <table border="1">
+        <tr>
+            <th>Nombre</th>
+            <th>Edad</th>
+        </tr>
+        <tr>
+            <td>Monica</td>
+            <td>18</td>
+        </tr>
+    </table>
+</html>
