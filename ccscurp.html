@@ -1,49 +1,22 @@
-/* Estilos para la tarjeta de Identidad */
-.curp-card {
+.document-viewer {
+    margin-top: 30px;
+    padding: 20px;
     background-color: #fff;
-    padding: 15px;
     border: 1px solid var(--accent-color);
-    border-radius: 5px;
-    font-size: 0.8rem;
 }
 
-.highlight {
-    font-family: monospace;
-    font-size: 0.95rem;
-    color: #b08d76; /* Tono acorde a la paleta del CV */
-    font-weight: bold;
-}
-
-.document-preview {
-    margin-top: 15px;
-    border-top: 1px dashed var(--accent-color);
-    padding-top: 10px;
-}
-
-.label-doc {
-    font-weight: 600;
-    margin-bottom: 5px;
-    color: #666;
-}
-
-.img-doc {
-    width: 100%;
+.official-doc {
+    width: 100%; /* Se ajusta al ancho del contenedor */
     height: auto;
     border: 1px solid #ddd;
-    border-radius: 3px;
-    transition: transform 0.3s;
+    box-shadow: 2px 2px 5px rgba(0,0,0,0.1);
+    display: block;
+    margin-bottom: 10px;
 }
 
-/* Efecto visual al pasar el mouse por el documento */
-.img-doc:hover {
-    transform: scale(1.05);
-    cursor: zoom-in;
-}
-
-.footer-card {
+.doc-caption {
+    font-size: 0.75rem;
+    color: #666;
     font-style: italic;
-    font-size: 0.7rem;
-    color: #888;
-    margin-top: 10px;
     text-align: center;
 }
