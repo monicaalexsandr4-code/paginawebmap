@@ -1,73 +1,75 @@
-<div class="document-container">
-    <div class="document-header">
-        <img src="CV/logo-mexico.png" alt="Gobierno de México" class="gov-logo">
-        <p class="title-doc">Constancia de la Clave Única de Registro de Población</p>
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Visualización CURP - Monica Bacilio</title>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Roboto:wght@300;400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style_curp.css">
+</head>
+<body>
+
+    <div class="curp-document">
+        <header class="gov-header">
+            <div class="logo-mexico">
+                <img src="CV/logo-gobierno.png" alt="Gobierno de México">
+            </div>
+            <div class="header-text">
+                <h1>ESTADOS UNIDOS MEXICANOS</h1>
+                <h2>CONSTANCIA DE LA CLAVE ÚNICA DE REGISTRO DE POBLACIÓN</h2>
+            </div>
+        </header>
+
+        <main class="curp-data-box">
+            <div class="data-row">
+                <div class="data-field large">
+                    <label>Clave:</label>
+                    <div class="value highlight">BAMM080215MMCCTNA8</div>
+                </div>
+            </div>
+            <div class="data-row">
+                <div class="data-field">
+                    <label>Nombre(s):</label>
+                    <div class="value">MONICA ALEXSANDRA</div>
+                </div>
+                <div class="data-field">
+                    <label>Primer Apellido:</label>
+                    <div class="value">BACILIO</div>
+                </div>
+                <div class="data-field">
+                    <label>Segundo Apellido:</label>
+                    <div class="value">MATA</div>
+                </div>
+            </div>
+            <div class="data-row">
+                <div class="data-field">
+                    <label>Entidad de registro:</label>
+                    <div class="value">MEXICO</div>
+                </div>
+                <div class="status-certified">
+                    CURP Certificada: verificada con el Registro Civil
+                </div>
+            </div>
+        </main>
+
+        <section class="letter-body">
+            <p class="recipient">MONICA ALEXSANDRA BACILIO MATA<br>PRESENTE</p>
+            
+            <p>El derecho a la identidad está consagrado en nuestra Constitución. En la Secretaría de Gobernación trabajamos todos los días para garantizar que las y los mexicanos gocen de este derecho plenamente.</p>
+            
+            <p>Nuestro objetivo es que el uso y adopción de la Clave Única de Registro de Población (CURP) permita a la población tener una sola llave de acceso a servicios gubernamentales.</p>
+
+            <div class="signature">
+                <p><strong>ROSA ICELA RODRÍGUEZ VELÁZQUEZ</strong><br>SECRETARIA DE GOBERNACIÓN</p>
+            </div>
+        </section>
+
+        <footer class="curp-footer">
+            <p>La impresión de la constancia CURP en papel bond, a color o blanco y negro, es válida y debe ser aceptada para realizar todo trámite.</p>
+            <div class="footer-contact">
+                800 911 11 11 | www.gob.mx/curp
+            </div>
+        </footer>
     </div>
 
-    <div class="curp-data-box">
-        <div class="data-field">
-            <span class="label">CURP:</span>
-            <span class="value">BAMM080215MMCCTNA8</span>
-        </div>
-        <div class="data-field">
-            <span class="label">Nombre:</span>
-            <span class="value">MONICA ALEXSANDRA BACILIO MATA</span>
-        </div>
-    </div>
-
-    <div class="image-viewer">
-        <img src="CV/constancia_curp.jpg" alt="Imagen CURP Monica" class="main-doc-img">
-    </div>
-</div>
-
-.document-container {
-    max-width: 800px;
-    margin: 20px auto;
-    padding: 20px;
-    background-color: #fff;
-    border: 1px solid #e0e0e0;
-    font-family: Arial, sans-serif;
-}
-
-.document-header {
-    text-align: center;
-    border-bottom: 2px solid #b38e5d; /* Color institucional */
-    padding-bottom: 10px;
-}
-
-.gov-logo {
-    width: 200px;
-    margin-bottom: 10px;
-}
-
-.title-doc {
-    font-weight: bold;
-    text-transform: uppercase;
-    font-size: 14px;
-}
-
-.curp-data-box {
-    background-color: #f9f9f9;
-    padding: 15px;
-    margin: 20px 0;
-    border-radius: 4px;
-}
-
-.data-field {
-    margin-bottom: 5px;
-}
-
-.label {
-    font-weight: bold;
-    color: #666;
-}
-
-.image-viewer {
-    text-align: center;
-}
-
-.main-doc-img {
-    width: 100%; /* Se ajusta al contenedor */
-    height: auto;
-    box-shadow: 0 4px 8px rgba(0,0,0,0.2);
-}
+</body>
+</html>
