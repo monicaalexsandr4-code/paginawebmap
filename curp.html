@@ -2,73 +2,61 @@
 <html lang="es">
 <head>
     <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Visualización CURP - Monica Bacilio</title>
-    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Roboto:wght@300;400;700&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="style_curp.css">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
 
-    <div class="curp-document">
-        <header class="gov-header">
-            <div class="logo-mexico">
-                <img src="CV/logo-gobierno.png" alt="Gobierno de México">
+    <div class="document-container">
+        <header class="doc-header">
+            <div class="logo-area">
+                <img src="CV/logo-gobierno.png" alt="Gobierno de México" class="header-img">
             </div>
-            <div class="header-text">
+            <div class="title-area">
                 <h1>ESTADOS UNIDOS MEXICANOS</h1>
                 <h2>CONSTANCIA DE LA CLAVE ÚNICA DE REGISTRO DE POBLACIÓN</h2>
             </div>
         </header>
 
-        <main class="curp-data-box">
-            <div class="data-row">
-                <div class="data-field large">
-                    <label>Clave:</label>
-                    <div class="value highlight">BAMM080215MMCCTNA8</div>
+        <main class="curp-box">
+            <div class="curp-data">
+                <span class="label">Clave:</span>
+                <div class="curp-value">BAMM080215MMCCTNA8</div>
+            </div>
+            
+            <div class="personal-info">
+                <div class="info-group">
+                    <span class="label">Nombre:</span>
+                    <p class="data-text">MONICA ALEXSANDRA BACILIO MATA</p>
+                </div>
+                <div class="info-group">
+                    <span class="label">Entidad de registro:</span>
+                    <p class="data-text">MEXICO</p>
                 </div>
             </div>
-            <div class="data-row">
-                <div class="data-field">
-                    <label>Nombre(s):</label>
-                    <div class="value">MONICA ALEXSANDRA</div>
-                </div>
-                <div class="data-field">
-                    <label>Primer Apellido:</label>
-                    <div class="value">BACILIO</div>
-                </div>
-                <div class="data-field">
-                    <label>Segundo Apellido:</label>
-                    <div class="value">MATA</div>
-                </div>
-            </div>
-            <div class="data-row">
-                <div class="data-field">
-                    <label>Entidad de registro:</label>
-                    <div class="value">MEXICO</div>
-                </div>
-                <div class="status-certified">
-                    CURP Certificada: verificada con el Registro Civil
-                </div>
+
+            <div class="status-badge">
+                <p>CURP Certificada: verificada con el Registro Civil</p>
             </div>
         </main>
 
-        <section class="letter-body">
-            <p class="recipient">MONICA ALEXSANDRA BACILIO MATA<br>PRESENTE</p>
-            
-            <p>El derecho a la identidad está consagrado en nuestra Constitución. En la Secretaría de Gobernación trabajamos todos los días para garantizar que las y los mexicanos gocen de este derecho plenamente.</p>
-            
-            <p>Nuestro objetivo es que el uso y adopción de la Clave Única de Registro de Población (CURP) permita a la población tener una sola llave de acceso a servicios gubernamentales.</p>
-
+        <section class="message-section">
+            <p class="date-location">Ciudad de México, a 12 de mayo de 2026</p>
+            <p class="greeting">MONICA ALEXSANDRA BACILIO MAΤΑ<br>PRESENTE</p>
+            <p class="body-text">
+                El derecho a la identidad está consagrado en nuestra Constitución. En la Secretaría de Gobernación trabajamos todos los días para garantizar que las y los mexicanos gocen de este derecho plenamente...
+            </p>
             <div class="signature">
-                <p><strong>ROSA ICELA RODRÍGUEZ VELÁZQUEZ</strong><br>SECRETARIA DE GOBERNACIÓN</p>
+                <p><strong>ROSA ICELA RODRÍGUEZ VELÁZQUEZ</strong></p>
+                <p>SECRETARIA DE GOBERNACIÓN</p>
             </div>
         </section>
 
-        <footer class="curp-footer">
-            <p>La impresión de la constancia CURP en papel bond, a color o blanco y negro, es válida y debe ser aceptada para realizar todo trámite.</p>
-            <div class="footer-contact">
-                800 911 11 11 | www.gob.mx/curp
-            </div>
-        </footer>
+        <footer class="doc-footer">
+            <p>Trámite Gratuito | TelCURP: 800 911 11 11</p>
+        </div>
     </div>
 
 </body>
